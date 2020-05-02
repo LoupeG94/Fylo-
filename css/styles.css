@@ -1,0 +1,326 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#container1 {
+  padding: 3% 5%;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 50px 0;
+}
+
+.title-heading {
+  padding: 0 40px 0 0;
+  width: 100%;
+  margin: auto;
+}
+
+.title-img {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+}
+
+
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.big-heading {
+  display: block;
+  font-weight: bold;
+}
+
+.title-paragraph {
+  display: block;
+  margin: 1.5rem;
+  margin-inline-start: 0px;
+}
+
+.btn-email {
+  height: 55px;
+  width: 350px;
+  border-radius: 3px;
+  border: 1px solid;
+  padding-left: 20px;
+}
+
+.btn {
+  width: 200px;
+  height: 55px;
+  margin: 7px 0;
+}
+
+/* container2 */
+#container2 {
+  background-image: url("../images/bg-curve-desktop.svg");
+   padding: 3% 5%;
+   color: hsl(243, 87%, 12%);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
+}
+
+.contents {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 50px 0;
+}
+
+.testimonial {
+  padding: 0 40px 0 0;
+  width: 100%;
+  margin: auto;
+}
+
+.testimonial-img {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+}
+
+@media (max-width: 850px) {
+  .testimonial-img {
+    padding: 30px 0;
+    height: auto;
+    width: 100%;
+  }
+}
+
+.description {
+  width: 50%;
+}
+
+.fylo-link {
+  color: hsl(170, 45%, 43%);
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+.founder {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 8px grey;
+  margin: 50px 0;
+}
+
+.avatar {
+  display: flex;
+}
+
+.avatar-img {
+  border-radius: 100%;
+  width: 15%;
+  height: 15%;
+  margin: 10px 0;
+}
+
+.quotes {
+  margin-bottom: 20px;
+}
+
+.author {
+  margin: auto 25px;
+}
+
+#container3 {
+  padding: 5% 5%;
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+  display: flex;
+}
+
+.cont3-par{
+  margin-top: 25px;
+}
+
+.part1 {
+  width:40%;
+}
+
+.part2 {
+  width:50%;
+  margin:auto 0 auto 150px;
+}
+
+.btn-email-2{
+ width: 80%;
+ padding-left: 20px;
+ height: 55px;
+ border-radius: 3px;
+ border: 1px solid;
+
+}
+
+.btn-get-start{
+  margin: 5px 0;
+ border-style: none;
+ height:55px;
+}
+
+#container4 {
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  padding: 7% 5%;
+}
+
+#container4 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icons {
+  margin-right: 20px;
+}
+
+.social-icon {
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.logo-bottom {
+  filter: brightness(0) invert(1);
+  margin-bottom: 50px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.attribution{
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+
+
+
+
+
+/* Media Query */
+
+
+
+@media(max-width:850px) {
+  .logo {
+    width: 25%;
+  }
+
+  .nav-item {
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .title {
+    width: 100%;
+    display: block;
+  }
+
+  .title-img, .testimonial-img {
+    padding: 30px 0;
+    height: auto;
+    width: 100%;
+  }
+
+  .title-heading {
+    text-align: center;
+  }
+
+  .btn-email {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  #container2 {
+    background-image: url("../images/bg-curve-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   }
+
+
+  .contents {
+    width: 100%;
+    display: block;
+  }
+
+  .description {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .founder {
+    text-align: left;
+    margin: 50px auto 70px;
+    width: 80%;
+  }
+
+  #container3 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 60px 5px;
+  }
+
+  .part1, .part2 {
+    width: 100%;
+    margin: auto;
+  }
+.btn-email-2, .btn-get-start{
+  width:85%;
+
+}
+
+  #container4 {
+    padding: 50px 30px;
+  }
+
+  .call-1, .call-2, .call-3, .call-4 {
+    margin: 60px 0;
+  }
+
+  .call-4 {
+    text-align: center;
+    margin: auto;
+  }
+
+  .bottom {
+    display: block;
+  }
+
+}
